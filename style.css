@@ -71,6 +71,16 @@ h3 {
     width: 100%;
     color:hsl(204, 43%, 93%);
     margin-top: 2rem;
+    transition-duration: 0.35s;
+}
+
+.signUpButton__bottomLeft:hover {
+    background-color:hsl(0, 0%, 100%);
+    color: hsl(71, 60%, 49%);
+}
+
+.signUpButton__bottomLeft:active {
+    transform: scale(0.975);
 }
 
 button{
